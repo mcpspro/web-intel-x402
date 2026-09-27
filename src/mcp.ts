@@ -24,7 +24,7 @@ async function run(fn: () => Promise<unknown> | unknown): Promise<ToolResult> {
   }
 }
 
-async function buildServer(cfg: PaymentConfig, resolveHost?: HostResolver) {
+export async function buildServer(cfg: PaymentConfig, resolveHost?: HostResolver) {
   const resourceServer = cfg.newResourceServer();
   await resourceServer.initialize();
 

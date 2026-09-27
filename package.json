@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/node.ts",
     "start": "tsx src/node.ts",
+    "mcp:stdio": "tsx src/stdio.ts",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test test/*.test.ts",
     "deploy": "wrangler deploy"
