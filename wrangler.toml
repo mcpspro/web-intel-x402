@@ -1,0 +1,10 @@
+name = "web-intel-x402"
+main = "src/worker.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+X402_NETWORK = "mainnet"
+EVM_ADDRESS = "0xC10f83Fa8D5e2AcD5D0725d8eAc8A7A908a14BA0"
+# SVM_ADDRESS = "TuDireccionSolana"
+FACILITATOR_URL = "https://facilitator.payai.network"

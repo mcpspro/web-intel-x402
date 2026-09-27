@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcpspro/web-intel",
+  "title": "Web Intel (x402)",
+  "description": "Pay-per-call web extraction, SEO audits and text analysis. USDC on Base via x402, no API keys.",
+  "version": "1.0.0",
+  "repository": { "url": "https://github.com/mcpspro/web-intel-x402", "source": "github" },
+  "websiteUrl": "https://web-intel-x402.x402-web-intel-api.workers.dev",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://web-intel-x402.x402-web-intel-api.workers.dev/mcp" }
+  ]
+}
