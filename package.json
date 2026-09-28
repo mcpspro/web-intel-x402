@@ -33,5 +33,6 @@
     "typescript": "^5.9.3",
     "viem": "^2.56.9",
     "wrangler": "^4.141.0"
-  }
+  },
+  "license": "MIT"
 }
