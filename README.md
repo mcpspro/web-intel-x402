@@ -25,7 +25,7 @@ cp .env.example .env
 ```bash
 npm install
 npm test
-npm run dev          # http://localhost:4021
+npm run serve        # API HTTP en http://localhost:4021 (npm start = MCP por stdio)
 ```
 
 Para probar un pago real en testnet:

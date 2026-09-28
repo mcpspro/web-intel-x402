@@ -6,8 +6,8 @@
   "description": "API de pago por uso (x402, USDC) que vende extracción web, auditorías SEO y análisis de texto a agentes de IA.",
   "scripts": {
     "dev": "tsx watch src/node.ts",
-    "start": "tsx src/node.ts",
-    "mcp:stdio": "tsx src/stdio.ts",
+    "start": "tsx src/stdio.ts",
+    "serve": "tsx src/node.ts",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test test/*.test.ts",
     "deploy": "wrangler deploy"
